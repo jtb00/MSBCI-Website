@@ -6,7 +6,7 @@ import logo from '../../assets/placeholder.svg'
 const Navbar = () => {
   return (
     <div>
-      <nav>
+      <nav className='container'>
         <img src={logo} alt="" className='logo'/>
         <ul>
           <li><Link to='/'>Home</Link></li>

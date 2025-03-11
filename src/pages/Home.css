@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3,#08003ab3), url('../assets/pexels-fauxels-3182781.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    color: #FFF;
+    text-align: center;
+    max-width: 800px;
+}
+.services {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px 50px;
+}
+.services-header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 20px 0px rgba(200, 200, 200, 0.75);
+    border-radius: 5px;
+}
+.icon {
+    width: 50px;
+}
