@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Footer from '../components/Footer/Footer'
 import icon1 from '../assets/chart-pie-svgrepo-com.svg'
 import icon2 from '../assets/align-bottom-svgrepo-com.svg'
 import icon3 from '../assets/checkmark-svgrepo-com.svg'
@@ -7,7 +8,7 @@ import image from '../assets/6240060.jpg'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <div className='hero'>
         <div className='hero-text'>
           <h1>IT Consulting Firm</h1>
@@ -55,6 +56,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -16,10 +16,8 @@
     width: 100%;
     text-align: center;
     margin: 50px 0px 50px;
-}
-.section-header {
-    margin-top: 25px;
-    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .row {
     display: flex;
@@ -40,6 +38,9 @@
 }
 .why-choose-us {
     margin-left: 20px;
+    margin-bottom: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .image img{
     float: right;
